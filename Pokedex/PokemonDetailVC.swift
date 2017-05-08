@@ -20,4 +20,7 @@ class PokemonDetailVC: UIViewController {
         nameLbl.text = pokemon.name
     }
 
+    @IBAction func btnBackPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
 }
